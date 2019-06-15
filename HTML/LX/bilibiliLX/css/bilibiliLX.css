@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/*第一层CSS*/
+#D1 {
+    width: 100%;
+    height: 50px;
+    /*background: #a6e22e;*/
+    display: flex;
+}
+#D1_1
+{
+    width: 25%;
+    height: 100%;
+    /*background: aqua;*/
+    /*float: left;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#D1_2{
+    width: 38%;
+    height: 100%;
+    /*background: bisque;*/
+    /*float: left;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*#D1-2 input{*/
+
+/*}*/
+#D1_2 input[type="text"]
+{
+    width: 100%;
+    height: 45%;
+    border-radius:20px;
+    border: 1px white solid;
+    background: #F4F4F4;
+    color: #999999;
+    text-indent: 15px;
+}
+#D1_2 input[placeholder="手办为什么那么贵"]
+{
+    font-size: 10px;
+}
+#D1_3
+{
+    width: 10%;
+    height: 100%;
+    /*background: #E7E7E7;*/
+    /*float: left;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#D1_4{
+    width: 27%;
+    height: 100%;
+    /*background: blueviolet;*/
+    /*float: left;*/
+    display: flex;
+    justify-contenr: center;
+    align-items: center;
+}
+#D1_4 button{
+    width: 85%;
+    height: 55%;
+    background: #FB7299;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    border: 1px #FB7299 solid;
+    margin-left: 10px;
+}
+#D1_3 img{
+    width: 70%;
+    height: 70%;
+}
+/*第二层*/
+#D2
+{
+    width: 100%;
+    height: 49px;
+    /*background: #FB7299;*/
+    display: flex;
+}
+.D2_1{/*这个是文字的Class*/
+    height: 100%;
+    width: 18%;
+    /*background: blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.D2_1 span
+{
+    color: #848484;
+    font-size: 14px;
+}
+#D2_2
+{
+    width: 10%;
+    height: 100%;
+    /*background: blueviolet;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#D2_2 img
+{
+    width: 80%;
+    height: 80%;
+}
+#D3{
+    width: 100%;
+    height:140px;
+    /*background: #FB7299;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#D3 img
+{
+    width: 95%;
+    height: 95%;
+}
+.D4 ，.D4_1 , .D4_2 , .D4_2 img
+{
+    display: flex;
+}
+.D4{
+    width: 100%;
+    height: 150px;
+    /*background: #a6e22e;*/
+    display: flex;
+}
+.D4_0{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.D4_1{
+    width:100%;
+    height:70%;
+    /*background: #FB7299;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.D4_1 img
+{
+    width: 90%;
+    height: 90%;
+}
+.D4_2{
+    display: flex;
+    width: 90%;
+    height: 30%;
+}
+.D4_2 span
+{
+    font-size: 0.9em;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹性盒子</title>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .div1
+        {
+            display: flex;
+            flex-direction: row;/*排布方向：row—正向横向排列，row-reverse反向横向排列
+                                排布方向：column—正向竖直排列，column-reverse反向竖直排列*/
+        }
+        #div_1
+        {
+            width: 200px;
+            height: 200px;
+            border: 1px cornflowerblue solid;
+            display: flex;
+            justify-content: space-around; /*居左边紧密连接：flex-start ，居右边紧密连接：flex-end
+                                     居中紧密连接：center，平均分散排列：space-between 两边空隙分散排列：space-around*/
+
+        }
+        #div_2
+        {
+            width: 200px;
+            height: 200px;
+            border: 1px cornflowerblue solid;
+            display: flex;
+            /*flex-direction: column;*/
+            justify-content: center;
+            align-items: stretch ;/*紧密靠上排布：flex-start，紧密靠下排布：flex-end
+                                    居中排布：center  baseline | stretch*/
+
+        }
+        #div_3
+        {
+            width: 200px;
+            height: 200px;
+            border: 1px cornflowerblue solid;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: stretch;
+
+        }
+        #div_4
+        {
+            width: 200px;
+            height: 200px;
+            border: 1px cornflowerblue solid;
+            display: flex;
+
+        }
+        #div_5
+        {
+            width: 200px;
+            height: 200px;
+            border: 1px cornflowerblue solid;
+            display: flex;
+
+        }
+        .div_1_1
+        {
+            width: 20px;
+            height: 15px;
+            background: springgreen;
+            border: 1px sienna solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div id="div_1" >
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+        </div>
+        <div id="div_2" >
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+        </div>
+        <div id="div_3" >
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+        </div>
+        <div id="div_4" >
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+        </div>
+        <div id="div_5" >
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+            <div class="div_1_1"></div>
+        </div>
+    </div>
+</body>
+</html>

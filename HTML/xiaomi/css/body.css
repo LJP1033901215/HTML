@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*img {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+body
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /*background: #FB7299;*/
+  /*  top: 0px;
+    left: 0px;*/
+}
+a
+{
+    text-decoration: none;
+    display: block;
+    width:20%;
+    height: 100%;
+}
+ul
+{
+    list-style: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>这个讲述盒子的边距问题</title>
+    <style>
+        bady
+        {
+            margin: 0;
+            padding: 0;
+        }
+        /*注意！！！相邻上下的两个盒子外边距会合并*/
+        #div1{
+            width: 600px;
+            height: 600px;
+            background: #FB7299;
+            margin-left: 20px;/*外边距*/
+            padding: 20px;/*内边距*/
+            /*注意！！！：内边距会改变盒子边框的大小，但不会改变盒子本身的尺寸*/
+        }
+        #div2{
+            width: 600px;
+            height: 600px;
+            background: #a6e22e;
+        }
+        .div3{
+            width: 150px;
+            height: 150px;
+            background: white;
+            margin-left: 60px;/*给小盒子设置外边距为60px*/
+            margin-top: 60px;/*给小盒子设置外边距为60px*/
+            /*注意！！！在内部的小盒子设置上下边距时，如果大盒子没有边框，则会直接联同大盒子被顶下去。*/
+            /*如果大盒子有边框，则不会出现类似情况*/
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div class="div3"></div>
+    </div>
+    <div id="div2">
+        <div class="div3"></div>
+    </div>
+</body>
+</html>

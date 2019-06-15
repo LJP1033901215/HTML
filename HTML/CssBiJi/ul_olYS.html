@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表的样式</title>
+    <style>
+        ul,ol{
+            padding: 0; /*内边距*/
+        }
+        ul li{
+            /*去除列表的样式,但保持前面的空格*/
+            list-style:none;
+            /*让列表横向排列*/
+            display: inline;
+        }
+        ol li{
+            /*去除列表的样式，但保持前面的空格*/
+            list-style-type: none;
+            padding: 0; /*内边距*/
+        }
+    </style>
+</head>
+<body>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <ol>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </ol>
+</body>
+</html>

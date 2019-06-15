@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类</title>
+    <style>
+        /*前四个必须要按照顺序排放，不得颠倒*/
+        #a1:link/*未点击链接时*/
+        {
+            color: #FB7299;
+        }
+        #a1:visited/*点击完链接时*/
+        {
+            color: aqua;
+        }
+        #a1:hover/*鼠标移动到链接上时*/
+        {
+            color: blueviolet;
+        }
+        #a1:active/*点击链接时*/
+        {
+            color: chartreuse;
+        }
+        #div1{
+            width: 50px;
+            height: 50px;
+            background: chartreuse;
+        }
+        #div1:hover/*鼠标移动到div上方后*/
+        {
+            background: aquamarine;
+            width: 100px;
+            height: 100px;
+        }
+        #div1:focus/*鼠标获得焦点后保持什么*/
+        {
+            width: 150px;
+            height: 150px;
+            background: #FB7299;
+            border-radius: 50%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <a id="a1"  href="sda#" target="_blank">这是一个链接现在测试效果</a>
+    <a href="asdad" target="_blank"><div id="div1">
+
+    </div></a>
+</body>
+</html>

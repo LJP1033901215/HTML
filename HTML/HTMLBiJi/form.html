@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form代码目录</title>
+</head>
+    <body>
+    <form action="">
+        <!--使用inout创建文本框(显示文本框内的字)-->
+        密码：<input type="text">
+        <!--使用input创建密码框(不显示文本内的字)-->
+        <br/>
+        账户：<input type="password">
+        <br/>
+        <!--使用input创建一个复选按钮（可以取消，方块）-->
+        <input type="checkbox"name="sex">勾选1
+        <input type="checkbox">勾选2
+        <input type="checkbox">勾选3
+        <!--使用input创建一个单选文本框(只可以单选,原点)-->
+        <input type="radio" value="1" name="sex">选项1
+        <input type="radio" value="1" name="sex">选项1
+        <input type="radio" value="2" name="sex">选项2
+        <input type="radio" value="3" name="sex">选项3
+        <input type="radio" value="4" name="sex">选项4
+        <br/>
+        <input type="submit" value="这是一个提交按钮">
+    </form>
+    <!--下面演示的是下拉列表-->
+    <form action="">
+        <!--select表示下拉列表中的选择选项-->
+        <select name="cars">
+            <!--option表示下拉列表选择中的选项-->
+            <option value="中国">中国</option>
+            <option value="中国">美国</option>
+            <option value="中国">印度</option>
+            <option value="中国">英国</option>
+            <option value="中国">德国</option>
+        </select>
+        <!--textarea可以创建一个可以拉伸的文本框-->
+        <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+        </textarea>
+        <!--创建一个可以编写文字的按钮图标,value表示往投胎提交什么-->
+        <button type="button" value="提交">提交</button>
+        <!--创建一个可以写字的表单-->
+        <input type="text" placeholder="chuanijijji">
+    </form>
+
+
+</body>
+</html>

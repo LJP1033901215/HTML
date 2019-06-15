@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字体</title>
+    <style>
+        #div1{
+            width: 500px;
+            height: 500px;
+        }
+        #div1 span{
+            font-family: 楷体;/*改变字体的字体*/
+            /*style改变文本的显示方式，italic：文本斜体显示，oblique文本倾斜显示*/
+            font-style: italic;
+            font-variant: small-caps;/*使小写字体变成大写字体*/
+            /*文字加粗，可进行选择100-900之间，或者直接bold */
+            font-weight:bold;
+            font-size: 4em;/*文字大小，px不可以跟随页面大小改变，em可以跟随页面改变*/
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <span>这是一段文字，要进行测试</span>
+    </div>
+</body>
+</html>
