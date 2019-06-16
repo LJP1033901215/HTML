@@ -106,19 +106,25 @@
     height: 41%;
     /*background: #FB7541;*/
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
 .A2a
 {
-    width: 14.5%;
+    width: 10%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /*background: #999999;*/
+    border-bottom: 2px white solid;
 }
+.A2a:hover
+{
+    border-bottom: 2px darkblue solid;
+}
+
 #A2 span{
     font-size: 13.5px;
     color: #747474;
@@ -133,6 +139,11 @@
     justify-content: center;
     align-items: center;
     /*background: #999999;*/
+    border-bottom: 2px white solid;
+}
+#A2a_1:hover
+{
+    border-bottom: 2px darkblue solid;
 }
 #A2b{
     height: 100%;
