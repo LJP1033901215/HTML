@@ -61,9 +61,10 @@
     <session id="877027935">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -206,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,6 +235,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,11 +324,12 @@
       <workItem from="1560560808427" duration="20523000" />
       <workItem from="1560596222661" duration="165000" />
       <workItem from="1560596695251" duration="4000" />
+      <workItem from="1560729415793" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124528000" />
+    <option name="totallyTimeSpent" value="124554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="256" y="29" width="1132" height="722" extended-state="0" />
