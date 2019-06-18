@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画设计</title>
+    <style>
+        @keyframes name {
+            0%{
+                top: 0px;
+                left: 0;
+                transform: rotate(0deg);
+                animation-timing-function: linear;
+            }
+            25%{
+                transform: rotate(45deg);
+                top: 0px;
+                left: 50px;
+                animation-timing-function: linear
+                }
+            50%{
+                  transform: rotate(90deg);
+                  top: 0px;
+                  left: 100px;
+                animation-timing-function: linear
+              }
+            75%{
+                    transform: rotate(135deg);
+                    top: 0px;
+                    left: 150px;
+                animation-timing-function: linear
+                }
+            100%{
+                transform: rotate(180deg);
+                top: 0px;
+                left: 200px;
+                animation-timing-function: linear
+            }
+        }
+        #div1
+        {
+            height: 30px;
+            width: 40px;
+            background-color: #a6e22e;
+            position: absolute;
+            border-radius: 5px;
+            animation: name 2s/*运行时间*/ linear/*匀速*/ 0s/*间隔时间*/ infinite/*循环次数*/ alternate/*逆向运行*/;
+        }
+        #div2
+        {
+            height: 30px;
+            width: 40px;
+            background-color: #a6e22e;
+            position: absolute;
+            border-radius: 5px;
+            animation: name 2s/*运行时间*/ linear/*匀速*/ 50ms/*间隔时间*/ infinite/*循环次数*/ alternate/*逆向运行*/;
+        }
+
+    </style>
+</head>
+<body>
+<div id="div1" ></div>
+<div id="div2" ></div>
+</body>
+</html>

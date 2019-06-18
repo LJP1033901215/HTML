@@ -32,7 +32,7 @@
 /*logo  */
 #A1a img{
      width: 56%;
-     height: 64%;
+     height: 75%;
  }
 /*第一部分上边中间的部分*/
 #A1b
@@ -106,48 +106,50 @@
     height: 41%;
     /*background: #FB7541;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .A2a
 {
-    width: 10%;
+    width: 9%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /*background: #999999;*/
-    border-bottom: 2px white solid;
+    border-bottom: 3px transparent solid;
 }
 .A2a:hover
 {
-    border-bottom: 2px darkblue solid;
+    border-bottom: 3px #ED5B00 solid;
+    color:#ED5B00;
 }
 
-#A2 span{
-    font-size: 13.5px;
+#A2 {
+    font-size: 13px;
     color: #747474;
 }
 /*中间特殊的618*/
 #A2a_1
 {
 
-    width: 17.5%;
+    width: 13%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /*background: #999999;*/
-    border-bottom: 2px white solid;
+    border-bottom: 3px transparent solid;
 }
 #A2a_1:hover
 {
-    border-bottom: 2px darkblue solid;
+    border-bottom: 3px #ED5B00 solid;
+    color: #ED5B00;
 }
 #A2b{
     height: 100%;
-    width: 10%;
+    width: 5%;
     /*background: #E5E5E5;*/
     display: flex;
     justify-content: center;
@@ -155,8 +157,29 @@
 }
 #A2b img{
     height: 100%;
-    width: 70%;
+    width: 120%;
 }
+/*一下是测试*/
+/*#A3{*/
+    /*width: 70px;*/
+    /*height: 150px;*/
+    /*background: #a6e22e;*/
+    /*position: absolute;*/
+    /*top: 11.5%;*/
+    /*right: 1%;*/
+    /*transition: height 3s;*/
+/*}*/
+/*#A3 ul{*/
+    /*width: 0px;*/
+    /*height: 150px;*/
+/*}*/
+/*#A2b :hover + ul{*/
+    /*height: 60px;*/
+/*}*/
+/*#A2b :hover + #A3{*/
+    /*height: 60px;*/
+/*}*/
+/*以上是测试*/
 /*第二部分*/
 #B
 {
@@ -169,7 +192,7 @@
 #B1
 {
     width: 100%;
-    height: 185px;
+    height: 35%;
     display: flex;
 }
 #B1 img
@@ -180,7 +203,7 @@
 #B2
 {
     width: 100%;
-    height: 160px;
+    height: 30%;
     display: flex;
     flex-direction: column;
     background: #F2F2F2;
@@ -215,7 +238,7 @@
 #B3
 {
     width: 100%;
-    height: 260px;
+    height: 49%;
     /*background: #a6e22e;*/
     display: flex;
     justify-content: space-between;
@@ -242,7 +265,7 @@
 #B4
 {
     width: 100%;
-    height: 150px;
+    height: 28%;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -254,7 +277,7 @@
 #B5
 {
     width: 100%;
-    height: 230px;
+    height: 40%;
     margin-bottom: 8px;
 }
 #B5 img
@@ -262,3 +285,23 @@
     width: 100%;
     height: 100%;
 }
+#FD{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:rgba(255,255,255,0.8);
+    position: absolute;
+    right: 0px;
+    bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: DH1 3s linear/*匀速*/ 0s/*延迟*/ infinite/*循环*/;
+}
+#FD img{
+    width: 50%;
+    height: 50%;
+
+}
+
+

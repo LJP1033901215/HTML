@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS的transform</title>
+    <style>
+    #div1
+              {
+                  width: 30px;
+                  height: 30px;
+                  background: #a6e22e;
+                  /*旋转*/
+                  -webkit-transform: rotale(45deg);
+                  -moz-transform: rotale(45deg);
+                  -ms-transform: rotale(45deg);
+                  -o-transform: rotale(45deg);
+                  transform: rotale(45deg);
+              }
+    #div2
+    {
+        width: 30px;
+        height: 30px;
+        background: #a6e22e;
+        /*移动*/
+        -webkit-transform: translate(30px,50px);
+        -moz-transform: translate(30px,50px);
+        -ms-transform: translate(30px,50px);
+        -o-transform: translate(30px,50px);
+        transform: translate(30px,50px);
+       
+    }#div3
+     {
+         width: 30px;
+         height: 30px;
+         background: #a6e22e;
+         /*缩放*/
+         -webkit-transform: scale(1.5,2);
+         -moz-transform: scale(1.5,2);
+         -ms-transform: scale(1.5,2);
+         -o-transform: scale(1.5,2);
+         transform: scale(1.5,2);
+        /*Y轴旋转*/
+             -webkit-transform: rotateX(45deg);
+             -moz-transform: rotateX(45deg);
+             -ms-transform: rotateX(45deg);
+             -o-transform: rotaleX(45deg);
+             transform: rotaleX(45deg);
+     }
+
+
+    </style>
+</head>
+<body>
+<div id="div1">
+</div>
+<div id="div2"></div>
+<div id="div3">dasdas</div>
+</body>
+</html>

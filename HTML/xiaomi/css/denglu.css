@@ -1,0 +1,109 @@
+#a{
+    height: 19%;
+    width: 100%;
+    background: #a6e22e;
+    display: flex;
+    flex-direction: column;
+}
+#a1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+#a1 img {
+    height: 60%;
+}
+#a2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 仿宋;
+}
+#b{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#b1{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C6C6C6;
+    font-size: 18px;
+    border-bottom: 1px #DCDCDC solid;
+}
+#b1 input{
+    height: 100%;
+    width: 70%;
+    border: none;
+    font-size: 18px;
+}
+#b1 input[placeholder="手机号码"]{
+    font-size: 18px;
+    color: #9B9B9B;
+}
+input:focus{
+    outline: none;
+}
+#b2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    border-bottom: 1px #DCDCDC solid;
+    margin-top: 8px;
+}
+#b21{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b22{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2EA5E5;
+    font-size: 14px;
+
+}
+#b21 input{
+    height: 80%;
+    width: 78%;
+    border: none;
+}
+#b21 input[placeholder="短信验证码"]{
+    font-size: 18px;
+    color: #9B9B9B;
+}
+#b3{
+    margin-top: 10px;
+    width: 100%;
+    height: 25%;
+    /*background: ;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b31{
+    width: 90%;
+    height: 65%;
+    background: #FF6700;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}

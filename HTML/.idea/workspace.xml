@@ -65,9 +65,36 @@
     <session id="877027935">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="3371" />
+          <entry key="html" value="4077" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="3371" />
+          <entry key="HTML" value="4077" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="8" />
+          <entry key="html" value="12" />
+          <entry key="png" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="12" />
+          <entry key="Image" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -109,44 +136,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xiaomi/html/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomi/css/idc.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomi/css/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaomi/css/body.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,12 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/table.html" />
-        <option value="$PROJECT_DIR$/ul  and  ol.html" />
-        <option value="$PROJECT_DIR$/form.html" />
-        <option value="$PROJECT_DIR$/BJ/ul  and  ol.html" />
-        <option value="$PROJECT_DIR$/CSS/测试.css" />
         <option value="$PROJECT_DIR$/BiJi/frameset.html" />
         <option value="$PROJECT_DIR$/BiJi/ifrme.html" />
         <option value="$PROJECT_DIR$/BiJi/iframe.html" />
@@ -207,12 +191,23 @@
         <option value="$PROJECT_DIR$/ceshi/lx2.html" />
         <option value="$PROJECT_DIR$/ceshi/LX1.html" />
         <option value="$PROJECT_DIR$/CssBiJi/background.html" />
-        <option value="$PROJECT_DIR$/xiaomi/css/body.css" />
-        <option value="$PROJECT_DIR$/xiaomi/css/idc.css" />
         <option value="D:/W-远程文件/OneDrive/HTML文件/20190318/css/随堂练习2.css" />
         <option value="D:/W-远程文件/OneDrive/HTML文件/页面/hmoe.html" />
+        <option value="$PROJECT_DIR$/xiaomi/css/body.css" />
+        <option value="$PROJECT_DIR$/LX/测试.html" />
+        <option value="$PROJECT_DIR$/CssBiJi/transform.html" />
+        <option value="$PROJECT_DIR$/CssBiJi/@keyframes.html" />
+        <option value="$PROJECT_DIR$/LX/QiQiBan.html" />
+        <option value="$PROJECT_DIR$/LX/DianFengShan.html" />
+        <option value="$PROJECT_DIR$/xiaomi/css/idc.css" />
+        <option value="$PROJECT_DIR$/xiaomi/css/my.css" />
+        <option value="$PROJECT_DIR$/xiaomi/html/my.html" />
+        <option value="$PROJECT_DIR$/xiaomi/css/DH.css" />
         <option value="$PROJECT_DIR$/xiaomi/css/home.css" />
+        <option value="$PROJECT_DIR$/xiaomi/html/denglu/zhuce.html" />
         <option value="$PROJECT_DIR$/xiaomi/html/home.html" />
+        <option value="$PROJECT_DIR$/xiaomi/html/denglu.html" />
+        <option value="$PROJECT_DIR$/xiaomi/css/denglu.css" />
       </list>
     </option>
   </component>
@@ -222,11 +217,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="468" />
-    <option name="y" value="108" />
-    <option name="width" value="1135" />
-    <option name="height" value="725" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="515" />
+    <option name="y" value="55" />
+    <option name="width" value="829" />
+    <option name="height" value="785" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -258,12 +253,7 @@
             <path>
               <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="CssBiJi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
-              <item name="HTMLBiJi" type="462c0819:PsiDirectoryNode" />
+              <item name="LX" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HTML" type="b2602c69:ProjectViewProjectNode" />
@@ -296,18 +286,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JY5\kaifa\DM\HTML\xiaomi\imgs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JY5\GitHub\HTML\HTML\xiaomi\imgs" />
       <recent name="C:\JY5\kaifa\DM\HTML\xiaomi\imgs" />
       <recent name="C:\JY5\kaifa\DM\HTML\LX" />
       <recent name="C:\JY5\kaifa\DM\HTML\CssBiJi" />
       <recent name="C:\JY5\kaifa\DM\HTML\bilibiliLX\img" />
-      <recent name="C:\JY5\kaifa\DM\HTML\CssBiJi\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\JY5\kaifa\DM\HTML\xiaomi\imgs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,14 +312,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.home.html">
+  <component name="RunManager" selected="JavaScript Debug.QiQiBan.html">
     <configuration name="LX1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML/ceshi/LX1.html">
       <method v="2" />
     </configuration>
-    <configuration name="background.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML/CssBiJi/background.html">
+    <configuration name="QiQiBan.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML/LX/QiQiBan.html">
       <method v="2" />
     </configuration>
-    <configuration name="form.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML/HTMLBiJi/form.html">
+    <configuration name="background.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML/CssBiJi/background.html">
       <method v="2" />
     </configuration>
     <configuration name="home.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HTML/xiaomi/html/home.html">
@@ -340,18 +330,18 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.lx2.html" />
-      <item itemvalue="JavaScript Debug.form.html" />
       <item itemvalue="JavaScript Debug.LX1.html" />
       <item itemvalue="JavaScript Debug.background.html" />
       <item itemvalue="JavaScript Debug.home.html" />
+      <item itemvalue="JavaScript Debug.QiQiBan.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.QiQiBan.html" />
         <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.background.html" />
         <item itemvalue="JavaScript Debug.LX1.html" />
         <item itemvalue="JavaScript Debug.lx2.html" />
-        <item itemvalue="JavaScript Debug.form.html" />
       </list>
     </recent_temporary>
   </component>
@@ -381,20 +371,21 @@
       <workItem from="1560671677451" duration="2082000" />
       <workItem from="1560674294372" duration="64000" />
       <workItem from="1560681848443" duration="1449000" />
+      <workItem from="1560729977770" duration="37444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139065000" />
+    <option name="totallyTimeSpent" value="176509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="515" y="55" width="829" height="785" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.094451785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21365361" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3282572" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -408,6 +399,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21365361" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3282572" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1443124" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -524,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LX/QiQiBan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CssBiJi/background.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -559,34 +562,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/W-远程文件/OneDrive/HTML文件/20190318/wed练习/随堂练习/随堂练习2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/W-远程文件/OneDrive/HTML文件/20190318/css/随堂练习2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomi/css/body.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/W-远程文件/OneDrive/HTML文件/页面/hmoe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="137" column="12" selection-start-line="137" selection-start-column="12" selection-end-line="137" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/W-远程文件/OneDrive/HTML文件/20190318/wed练习/随堂练习/随堂练习2.html" />
+    <entry file="file://D:/W-远程文件/OneDrive/HTML文件/20190318/css/随堂练习2.css" />
+    <entry file="file://D:/W-远程文件/OneDrive/HTML文件/页面/hmoe.html" />
     <entry file="file://$PROJECT_DIR$/HTMLBiJi/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
@@ -594,24 +572,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomi/css/idc.css">
+    <entry file="file://$PROJECT_DIR$/LX/测试.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="1215">
+          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CssBiJi/transform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/DianFengShan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CssBiJi/@keyframes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LX/QiQiBan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="82" column="43" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/imgs/钱包.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/html/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1981">
+          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/css/DH.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/css/my.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding>
+            <element signature="e#42#73#0" />
+            <element signature="e#730#738#0" />
+            <element signature="e#931#939#0" />
+            <element signature="e#1069#1077#0" />
+            <element signature="e#1187#1195#0" />
+            <element signature="e#1248#1256#0" />
+            <element signature="e#911#919#0" />
+            <element signature="e#1448#1456#0" />
+            <element signature="e#1565#1573#0" />
+            <element signature="e#1714#1722#0" />
+            <element signature="e#1682#1690#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/html/denglu/zhuce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaomi/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+        <state relative-caret-position="233">
+          <caret line="296" column="28" lean-forward="true" selection-start-line="296" selection-start-column="28" selection-end-line="296" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaomi/html/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        <state relative-caret-position="162">
+          <caret line="6" column="109" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="109" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/css/idc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/css/body.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/html/denglu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaomi/css/denglu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
         </state>
       </provider>
     </entry>
